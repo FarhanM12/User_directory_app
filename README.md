@@ -38,4 +38,33 @@ Built as a 48-hour take-home assignment.
 
 <details>
 <summary>Folder structure</summary>
+lib/
+├─ models/ user_model.dart
+├─ services/ api_service.dart
+├─ providers/ user_provider.dart
+├─ screens/ splash, user_list, user_detail
+└─ widgets/ user_tile, etc.
+
+</details>
+
+---
+
+## 🛠 Packages & Tools
+| Package | Purpose |
+|---------|---------|
+| **http** | REST calls |
+| **provider** | State-management |
+| **cached_network_image** | Avatar caching & placeholders |
+| **google_fonts** | Custom typography |
+| **simple_animations**, **wave** | Splash animations |
+| **flutter_spinkit** | Consistent loading spinners |
+
+---
+
+## 🚀 Running & Building
+
+```bash
+flutter pub get
+flutter run                  # debug build
+flutter build apk --release  # signed, optimised APK
 
